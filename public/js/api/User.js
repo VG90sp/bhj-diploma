@@ -50,7 +50,7 @@ class User {
             this.unsetCurrent();
           }
         }
-        return callback;
+        callback();
       }
     };
 
